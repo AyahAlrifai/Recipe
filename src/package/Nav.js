@@ -19,10 +19,3 @@ export const Nav = () => {
        
     </div>
 };
-
-/*
- <div style={{width:"40px",height:"20px",border:"2px solid #000000",borderRadius:"10px",background:"#ffffff",display:"flex",justifyContent:"flex-end",margin:"15px"}}>
-            <div style={{width:"20px",height:"20px",border:"1px solid #000000",borderRadius:"10px",background:"#fd0909"}}>
-            </div>
-        </div>
-        */
