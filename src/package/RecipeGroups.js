@@ -19,7 +19,7 @@ export const RecipeGroups = ()=> {
         <div className="arrowContainer" >
             <p>{localization.message_1}</p>
             <FaArrowLeft  className="arrow" onClick={()=>{setState("next");setGroupId(groupId+1)}} />
-            <p>{groupId+1}</p>
+            <p style={{fontSize:"15px"}}>{groupId+1}</p>
             <FaArrowRight className="arrow" onClick={()=>{setState("back");setGroupId(groupId-1)}} />
             <p>{localization.message_2}</p>
         </div>
